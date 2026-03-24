@@ -1,0 +1,7 @@
+aid: convergys
+url: https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/apis.yml
+modified: '2026-03-23'
+apis: []
+common:
+  - type: Website
+    url: https://www.convergys.com
