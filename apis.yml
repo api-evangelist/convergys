@@ -1,7 +1,12 @@
 aid: convergys
-url: https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.convergys.com
+description: >-
+  Convergys was a global leader in customer management services, providing customer
+  care, technology services, and analytics across industries before being acquired
+  by Concentrix.
