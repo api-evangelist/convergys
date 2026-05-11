@@ -47,6 +47,28 @@ common:
   - type: PrivacyPolicy
     url: https://www.concentrix.com/legal/privacy-notice/
 
+  - type: Integrations
+    url: https://www.concentrix.com/integrations/
+integrations:
+  - name: Concentrix
+  - name: English (US)
+  - name: 简体中文 flag
+  - name: Nederlands flag
+  - name: English (GB) flag
+  - name: English (US) flag
+  - name: Français flag
+  - name: Deutsch flag
+  - name: Indonesia flag
+  - name: Italiano flag
+  - name: 日本語 flag
+  - name: 한국어 flag
+  - name: Português flag
+  - name: Español (EU) flag
+  - name: Español (LATAM) flag
+  - name: ไทย flag
+  - name: Türkçe flag
+  - name: Tiếng Việt flag
+  - name: Think Human Fund
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
