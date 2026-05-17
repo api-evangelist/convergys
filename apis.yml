@@ -2,7 +2,7 @@ aid: convergys
 url: >-
   https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/apis.yml
 name: Convergys
-x-type: company
+kind: company
 description: >-
   Convergys was a global leader in customer management services, providing
   customer care, technology services, and analytics across industries before
