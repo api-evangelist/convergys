@@ -13,7 +13,7 @@ description: >-
   portfolio. Concentrix itself does not publish public REST APIs or
   developer programs in the way SaaS vendors do. Most platform integrations
   are delivered through enterprise contracts and private APIs.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Acquired
   - Analytics
