@@ -28,6 +28,8 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/convergys-domain-security.yml
   - type: Website
     url: https://www.concentrix.com
   - type: LegacyWebsite
@@ -49,6 +51,8 @@ common:
 
   - type: Integrations
     url: https://www.concentrix.com/integrations/
+  - url: https://www.concentrix.com/feed/
+    type: Blog
 integrations:
   - name: Concentrix
   - name: English (US)
