@@ -13,6 +13,17 @@ description: >-
   portfolio. Concentrix itself does not publish public REST APIs or
   developer programs in the way SaaS vendors do. Most platform integrations
   are delivered through enterprise contracts and private APIs.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
