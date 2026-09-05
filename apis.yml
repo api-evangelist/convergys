@@ -52,8 +52,8 @@ apis: []
 common:
   - type: DomainSecurity
     url: security/convergys-domain-security.yml
-  - type: Website
-    url: https://www.concentrix.com
+  # No Website on purpose. Convergys was acquired by Concentrix in 2018 and has no
+  # site of its own; concentrix.com is the ACQUIRER's page.
   - type: LegacyWebsite
     url: https://www.convergys.com
   - type: About
@@ -98,3 +98,6 @@ integrations:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-parent: concentrix
+x-relationship: acquisition
+x-acquired: 2018
