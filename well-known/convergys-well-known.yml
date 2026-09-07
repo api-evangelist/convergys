@@ -1,0 +1,108 @@
+generated: '2026-09-07'
+method: probed
+source: >-
+  Live HTTP probes of every host this record knows: the legacy Convergys web host,
+  the surviving Convergys developer host, and the acquirer host that stands in for
+  the Website pointer. Nothing was served; this file records that absence.
+note: >-
+  Convergys was acquired by Concentrix (SYNNEX) in October 2018 and the brand is
+  retired. www.convergys.com is an Azure App Service redirect app that is now
+  DISABLED — it answers "HTTP/1.1 403 Site Disabled" for every path, including
+  every /.well-known/* path and a negative-control path that cannot exist — and its
+  TLS certificate has expired, so HTTPS does not complete a handshake at all.
+  www.concentrix.com is the ACQUIRER's host, probed here only because it is the
+  Website pointer on this record; the discovery documents it serves (none) belong to
+  Concentrix, which is profiled separately at all/concentrix/. No WellKnown or
+  SecurityTxt pointer is emitted: nothing returned a document.
+hit_count: 0
+hosts:
+- host: www.convergys.com
+  scheme: http
+  note: >-
+    HTTPS unusable — certificate has expired (curl error 60). Probed over HTTP.
+    Blanket 403 "Site Disabled" from Azure App Service on every path.
+  path_echo_control: n/a
+  soft_404_control:
+    path: /.well-known/convergys-negative-control-7f3ab91c.json
+    status: 403
+    bytes: 1148
+    note: Identical 1148-byte Azure "Web App - Unavailable" body as every other path.
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null
+- host: developer.convergys.com
+  scheme: https
+  note: >-
+    DANGLING DNS. The A record survives and resolves consistently on 8.8.8.8 and
+    1.1.1.1 to 151.214.119.116, an address block registered to "Concentrix CVG Brite
+    Voice Systems LLC" (the Convergys/Brite Voice lineage) — but TCP 80 and TCP 443
+    are both closed, so no HTTP surface exists to probe. Recorded as evidence that a
+    Convergys developer host once existed and was decommissioned, not as a live host.
+  reachable: false
+  dns:
+    a: [151.214.119.116]
+    resolvers_agree: true
+    whois_org: Concentrix CVG Brite Voice Systems LLC
+  ports:
+    '80': closed
+    '443': closed
+  documents: []
+- host: www.concentrix.com
+  scheme: https
+  note: >-
+    Acquirer host, not a Convergys host. Well-behaved 404s on /.well-known/* (no path
+    echo). The site does serve a soft-200 SPA shell for ordinary content paths — see
+    soft_404_control — which is why the pointer repair in this pass distrusted 200s.
+  path_echo_control: passed
+  soft_404_control:
+    path: /.well-known/convergys-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 263582
+    note: >-
+      404 status with a 263KB HTML shell body. Correct status, so no false positive
+      here; but the same 263KB shell is served with a 200 on content paths that do
+      not exist (probed /this-page-cannot-exist-9f3a2b/ -> 200, 264458 bytes).
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

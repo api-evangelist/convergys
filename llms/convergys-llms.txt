@@ -1,0 +1,44 @@
+# Convergys
+
+> Convergys Corporation was a global customer-management company — contact-center
+> outsourcing, workforce management, customer analytics and digital customer
+> experience — acquired by SYNNEX and merged into Concentrix in October 2018. The
+> brand is retired. This is an API Evangelist profile of a company that no longer
+> operates, kept so that the Convergys name resolves to an accurate record rather
+> than to nothing.
+
+## Status
+
+- Convergys published no public API, developer program, or machine-readable contract
+  that survives today. Probed 2026-09-07: no OpenAPI, Swagger, GraphQL, AsyncAPI,
+  WSDL, gRPC, MCP server, or A2A agent card was found on any host this record knows.
+- `www.convergys.com` is an Azure App Service redirect app that has been switched
+  off. Every path — including `/`, `/.well-known/*`, and a control path that cannot
+  exist — returns `HTTP/1.1 403 Site Disabled`, and the host's TLS certificate has
+  expired, so HTTPS does not complete a handshake.
+- `developer.convergys.com` still resolves (151.214.119.116, an address block
+  registered to Concentrix CVG Brite Voice Systems LLC) but TCP 80 and 443 are both
+  closed. A developer host existed once; it is decommissioned.
+- The successor company, Concentrix, is profiled separately. Anything a reader wants
+  from "the Convergys API" today belongs to that record, not this one.
+
+## Successor
+
+- [Concentrix (API Evangelist profile)](https://apis.io/providers/concentrix/)
+- [Concentrix](https://www.concentrix.com/)
+- [About Concentrix](https://www.concentrix.com/about/)
+- [Concentrix technology partners](https://www.concentrix.com/partners/)
+
+## History
+
+- [SYNNEX Corporation Announces Acquisition of Convergys to Close on October 5, 2018](https://www.prnewswire.com/news-releases/synnex-corporation-announces-acquisition-of-convergys-to-close-on-october-5-2018-300724049.html)
+- [NEC to acquire Convergys data management business](https://www.computerworld.com/article/1445866/nec-to-acquire-convergys-data-management-business-for-us-449-million.html)
+- [Concentrix gets up close and personal with Teleperformance with its Convergys acquisition](https://www.horsesforsources.com/convergys-concentrix_062918/)
+
+## Artifacts in this profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/apis.yml) — the API Evangelist record for Convergys
+- [well-known probe](https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/well-known/convergys-well-known.yml) — every `/.well-known/` path probed, and what each returned
+- [domain security](https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/security/convergys-domain-security.yml) — TLS, HSTS, DNSSEC, CAA, SPF, DMARC
+
+<!-- generated: 2026-09-07 | method: generated | source: apis.yml + live probes in well-known/convergys-well-known.yml -->
