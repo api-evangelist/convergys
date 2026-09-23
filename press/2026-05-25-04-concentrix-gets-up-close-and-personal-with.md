@@ -1,7 +1,9 @@
 ---
 title: Concentrix gets up close and personal with ...
 url: https://www.horsesforsources.com/convergys-concentrix_062918/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Convergys" press release artificial intelligence'
 position: 4
 source: serpapi-google

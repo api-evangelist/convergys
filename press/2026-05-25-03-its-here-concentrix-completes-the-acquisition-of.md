@@ -1,7 +1,9 @@
 ---
 title: 'It''s here. #Concentrix completes the acquisition of # ...'
 url: https://www.facebook.com/convergysglobal/posts/its-here-concentrix-completes-the-acquisition-of-convergys-creating-the-worlds-g/10156626173185786/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Convergys" press release artificial intelligence'
 position: 3
 source: serpapi-google

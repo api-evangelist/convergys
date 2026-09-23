@@ -1,7 +1,9 @@
 ---
 title: Convergys Analytics
 url: https://www.cxnetwork.com/cx-experience/articles/convergys-analytics
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Convergys" press release artificial intelligence'
 position: 5
 source: serpapi-google
