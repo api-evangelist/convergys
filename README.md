@@ -1,4 +1,4 @@
-# Convergys (convergys)
+# Convergys
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,41 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Convergys was a global leader in customer management services, providing customer care, technology services, and analytics across industries before being acquired by Concentrix in October 2018. The legacy convergys.com domain now redirects to Concentrix, and Convergys offerings such as contact center outsourcing, workforce management, analytics, and digital customer experience platforms have been folded into the Concentrix portfolio. Concentrix itself does not publish public REST APIs or developer programs in the way SaaS vendors do. Most platform integrations are delivered through enterprise contracts and private APIs.
+Convergys Corporation was a global leader in customer management services — contact center outsourcing, workforce management, customer analytics and digital customer experience platforms — serving communications, financial services, healthcare, retail and technology clients. SYNNEX acquired Convergys in October 2018 and merged it into Concentrix; the brand was retired and its offerings were folded into the Concentrix portfolio. Convergys published no public API or developer program that survives. Probed 2026-09-07: www.convergys.com is an Azure App Service redirect app that has been switched off and now answers "403 Site Disabled" on every path with an expired TLS certificate, and developer.convergys.com still resolves to an address block registered to Concentrix CVG Brite Voice Systems LLC with both HTTP ports closed. The successor company, Concentrix, is profiled separately and delivers most platform integration through enterprise contracts rather than a public developer program.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/apis.yml)
+**Areas:** Acquired · Analytics · Business Process Outsourcing · Concentrix · Contact Center · Customer Experience · Customer Management · Workforce Management
 
-## Type
+## Convergys on APIs.io
 
-- **x-type:** company
+Everything profiled for Convergys is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/convergys/](https://apis.io/providers/convergys/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### Published properties
 
- - Acquired, Analytics, Business Process Outsourcing, Concentrix, Contact Center, Customer Experience, Customer Management, Workforce Management
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2026-03-23
-- **Modified:** 2026-04-28
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Convergys Domain Security](https://apis.io/security/convergys/convergys-domain-security/)
 
-No public APIs have been documented. Convergys was acquired by Concentrix in October 2018. Concentrix delivers customer experience and contact center technology through enterprise engagements rather than a public developer program.
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://www.concentrix.com)
-- [LegacyWebsite](https://www.convergys.com)
-- [About](https://www.concentrix.com/about-us/)
-- [News](https://www.concentrix.com/insights/)
-- [PressRelease](https://investor.concentrix.com/news-releases/news-release-details/concentrix-completes-acquisition-convergys)
-- [Careers](https://careers.concentrix.com/)
-- [Contact](https://www.concentrix.com/contact-us/)
-- [TermsOfService](https://www.concentrix.com/legal/website-terms-of-use/)
-- [PrivacyPolicy](https://www.concentrix.com/legal/privacy-notice/)
+- [Website](https://www.concentrix.com/)
+- [Blog](https://www.concentrix.com/feed/)
+- [Terms of service](https://www.concentrix.com/wp-content/uploads/2024/04/Concentrix-Website-Terms-of-Use.pdf)
+- [Privacy policy](https://www.concentrix.com/legal/privacy-notice/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 7.4** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/convergys/](https://apis.io/providers/convergys/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Convergys: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/convergys/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
